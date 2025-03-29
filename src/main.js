@@ -31,6 +31,6 @@ app.get("/printdesigns", (req, res) => {
     res.sendFile(__dirname + "/print.html");
 });
 
-app.listen(3000, () => {
+app.listen(5173, () => {
     console.log("Listening on port 3000");
 });
